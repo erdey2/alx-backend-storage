@@ -1,7 +1,7 @@
 -- create a table with constraint
 
-IF NOT EXISTS CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
        id INTEGER PRIMARY KEY AUTO_INCREMENT,
-       email STRING(255) NOT NULL UNIQUE,
-       name STRING(255)
+       email VARCHAR(255) NOT NULL UNIQUE,
+       name VARCHAR(255)
 );
