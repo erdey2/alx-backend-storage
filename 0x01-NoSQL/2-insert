@@ -1,2 +1,3 @@
 // Insert Data
+use my_db
 db.insert({name: "Holberton school"})
