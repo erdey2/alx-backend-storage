@@ -1,3 +1,2 @@
 // Insert Data
-use my_db
-db.insert({name: "Holberton school"})
+db.school.insert({name: "Holberton school"})
